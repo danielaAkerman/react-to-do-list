@@ -1,0 +1,15 @@
+li {
+    border: solid 1px;
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-check--active{
+    background-color: pink;
+}
+
+.todo-item-completed{
+    text-decoration: line-through;
+}
