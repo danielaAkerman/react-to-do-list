@@ -7,7 +7,7 @@ import { CreateTodoButton } from './CreateTodoButton';
 import './App.css';
 
 const defaultTodos = [
-  { text: "Ir al super", completed: false },
+  { text: "Ir al super", completed: true },
   { text: "Comprar leches", completed: false },
   { text: "Ver Barbie un toque de magia", completed: false },
   { text: "Tomar helado", completed: false },

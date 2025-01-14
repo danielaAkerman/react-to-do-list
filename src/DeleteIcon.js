@@ -1,11 +1,11 @@
 import React from "react";
-import { ReactComponent } from './cross.svg'
-// import {TodoIcon} from "TodoIcon"
+import { TodoIcon } from "./TodoIcon"
 
-function DeleteIcon() {
-    return (
-        <ReactComponent style={{ width: 40, height: 40 }} />
-    )
+function DeleteIcon({ onDelete }) {
+    return <TodoIcon
+        type='delete'
+        color='pink' 
+        onClick={onDelete}/>
 }
 
 export { DeleteIcon }
