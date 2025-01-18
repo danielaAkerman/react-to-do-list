@@ -1,10 +1,10 @@
 import React from 'react';
 
 function useLocalStorage(itemName, initialValue) {
-
     const [item, setItem] = React.useState(initialValue)
     const [loading, setLoading] = React.useState(true)
     const [error, setError] = React.useState(false)
+
 
     React.useEffect(() => {
         setTimeout(() => {
@@ -27,7 +27,7 @@ function useLocalStorage(itemName, initialValue) {
                 setLoading(false)
                 setError(true)
             }
-        }, 2000)
+        }, 8000)
 
     }, []) // Poner ,[] sino Warning: Maximum update depth exceeded.
 
