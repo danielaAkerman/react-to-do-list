@@ -1,10 +1,8 @@
-const estilos = {
-    padding: 0,
-}
+import "./TodoList.css"
 
 function TodoList({ children }) {
     return (
-        <ul style={estilos}>
+        <ul className="TodoList">
             {children}
         </ul>
     )

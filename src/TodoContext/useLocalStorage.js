@@ -27,7 +27,7 @@ function useLocalStorage(itemName, initialValue) {
                 setLoading(false)
                 setError(true)
             }
-        }, 8000)
+        }, 2000)
 
     }, []) // Poner ,[] sino Warning: Maximum update depth exceeded.
 
