@@ -26,7 +26,7 @@ function TodoSearch() {
         <div style={estilosDiv}>
             <input
                 style={estilosInput}
-                placeholder={loading ? "Preparando todo..." : "Agrega tu nuevo objetivo"}
+                placeholder={loading ? "Preparando todo..." : "Buscar..."}
                 value={searchValue}
                 onChange={(event) => {
                     setSearchValue(event.target.value)

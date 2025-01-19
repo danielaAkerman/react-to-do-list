@@ -1,0 +1,11 @@
+.Modal {
+    background-color: rgba(255, 192, 203, 0.69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
